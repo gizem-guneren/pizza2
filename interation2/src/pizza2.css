@@ -1,0 +1,399 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #213547;
+    background-color: #ffffff;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  
+  body {
+   /* margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;*/
+  }
+  
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    border-color: #646cff;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  img.header-image {
+    object-fit: cover;
+    height: 610px;
+    width: 100%;
+  }
+  
+  .image-text-container {
+    position: relative;
+  }
+  
+  img.header-image-text {
+    position: absolute;
+    top: 5%;
+    left: 37%;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 14%;
+    display: flex;
+    left: 42%;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: #FDC913;
+    font-family: 'Satisfy', cursive;
+    margin-left: -28px;
+  }
+  
+  .text-overlay h1 {
+    font-family: Roboto Condensed;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 1.5px;
+    color: #fff;
+    text-align: center;
+    margin-left: -27px;
+  }
+  
+  .btn {
+    background: #FDC913;
+    border-radius: 50px;
+    border: none;
+    font-family: Barlow;
+  }
+  
+  .nav-item-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 24px 0;
+  }
+  
+  .nav-item-list a {
+    color: #000;
+    text-decoration: auto;
+  }
+  
+  .banner-section {
+    display: flex;
+    position: relative;
+  }
+  
+  .banner-section img {
+    border-radius: 22px;
+  }
+  
+  .pizza-section {
+    position: relative;
+  }
+  
+  .pizza-section-header {
+    position: absolute;
+    top: 0px;
+    left: 32px;
+  }
+  
+  .pizza-section h2 {
+  
+    font-family: 'Quattrocento', sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 72px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+  }
+  
+  .pizza-section p {
+  
+    color: #FFFFFF;
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  .pizza-section button {
+    width: 138px;
+    height: 48px;
+    padding: 3px 18px 0 18px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    border: none;
+    color: #CE2829;
+  }
+  
+  .hamburger-kurye-section {
+    position: relative;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 10px;
+  }
+  
+  .hamburger-section h3 {
+    position: absolute;
+    font-family: 'Barlow', sans-serif;
+    font-size: 32px;
+    text-align: left;
+    width: 10px;
+    height: 90px;
+    top: 20px;
+    left: 32px;
+    color: #FFFFFF;
+  }
+  
+  .hamburger-section button {
+    position: absolute;
+    width: 138px;
+    height: 48px;
+    top: 200px;
+    left: 32px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    border: none;
+    color: #CE2829;
+  }
+  
+  .kurye-section {
+    position: relative;
+  }
+  
+  .kurye-section h3 {
+    position: absolute;
+    font-family: 'Barlow', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44.27px;
+   text-align: left;
+    width: 254px;
+    height: 88px;
+    top: 0.47px;
+  }
+  
+  .red-text {  
+  color: #D80027;
+  }
+  
+  .kurye-section button {
+    position: absolute;
+    width: 138px;
+    height: 48px;
+    top: 143.5px;
+    left: 32px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    border: none;
+    color: #CE2829;
+  }
+  
+  .reklam-container p {
+    font-family: 'Satisfy', cursive;
+    color: #CE2829;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    height: 110.45px;
+    padding: 0 292px 9.45px;
+  }
+  
+  .reklam-container h2 {
+    font-family: Barlow;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 56.2px;
+    text-align: center;
+    height: 110.45px;
+    padding: 0 292px 9.45px;
+  }
+  
+  .menu-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .menu-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+  }
+  .menu-button button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid white;
+  background: #FFFFFF; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  }
+  
+  .menu-button button img {
+  width: Hug (178.28px)px;
+  height: Hug (66px)px;
+  
+  
+  }
+  .menu-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  
+  .menu-item {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .footer-logo {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-item p,
+  .footer-item a {
+    color: white;
+    margin: 0;
+  }
+  
+  .footer-menu {
+    text-align: left;
+  }
+  
+  .footer-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-menu li {
+    margin: 5px 0;
+  }
+  
+  .social-media {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .social-media-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .social-media-img img {
+    width: 70px;
+    height: auto;
+  }
+  
+  .footer-content p,
+  .footer-content h4,
+  .footer-content li,
+  .footer-content a {
+    color: white;
+  }
+  
+  @media (max-width: 750px) {
+  .header-image {
+    height: 400px;
+  }
+  
+  .text-overlay {
+    left: 20%;
+  }
+  
+  .text-overlay h1 {
+    font-size: 20px;
+  }
+  
+  .banner-section {
+    flex-direction: column;
+  }
+  
+  .pizza-section {
+    text-align: center;
+  }
+  
+  .menu-section {
+    flex-direction: column;
+  }
+  
+  .menu-item {
+    width: 100%;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+  }
+  
+  .social-media-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  }
+  
+  .hamburger-kurye-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  
